@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body bgcolor="#E6E6FA">
+<form action="PopulatePlaces.php">
+
+  <div class="container" style="background-color:#B6E6FA">
+  <p><b>Google Places</b></p>
+<label for="Latitude">Latitude</label>
+<INPUT TYPE = "Text" VALUE ="-33.8670522" NAME = "latitude" required>
+<label for="Longitude">Longitude</label>
+<INPUT TYPE = "Text" VALUE ="151.1957362" NAME = "longitude" required>
+<label for="Radius">Radius</label>
+<INPUT TYPE = "Text" VALUE ="1500" NAME = "radius" required>
+<label for="Type">Type</label>
+<INPUT TYPE = "Text" VALUE ="restaurant" NAME = "type" required>
+<label for="Keyword">Keyword</label>
+<INPUT TYPE = "Text" VALUE ="food" NAME = "keyword" required>
+<button type="SearchBttn">Populate</button>
+
+  </div>
+  </form>
+  
+  <form action="Search2.php">
+  <div class="container" style="background-color:#B6E6FA">
+  <p><b>GitHubJobs</b></p>
+<label for="Radius">Location</label>
+<INPUT TYPE = "Text" VALUE ="London" NAME = "location" required>
+<label for="FullTime">FullTime</label>
+<INPUT TYPE = "Text" VALUE ="true" NAME = "fulltime" required>
+<label for="Description">Description</label>
+<INPUT TYPE = "Text" VALUE ="PHP" NAME = "description" required>
+<button type="SearchBttn2">Search</button>
+  </div>  
+  </form>
+  
+    <form action="region.php">
+  <div class="container" style="background-color:#B6E6FA">
+  <p><b>Zillow</b></p>
+<label for="state">State</label>
+<INPUT TYPE = "Text" VALUE ="NJ" NAME = "state" required>
+<button type="SearchBttn3">Search</button>
+  </div>  
+  </form>
+
+  <p></p>
+  <p ><b>Visualize</b></p>
+<form action="RetrievePlaces.php" class="form_wrapper">
+  <div class="container">
+  
+  <button type="SearchBttn3">RetrievePlaces</button>
+</form>
+</div>
+
+<form action="RetrieveCounties.php" class="form_wrapper">
+  <div class="container">
+  <button type="SearchBttn4">RetrieveCounties</button>
+</form>
+</div>
+
+<form action="RetrieveJobs.php" class="form_wrapper">
+  <div class="container">
+  <button type="SearchBttn5">RetrieveJobs</button>
+</form>
+</div>
+
+<form action="map.php" class="form_wrapper">
+  <div class="container">
+  <button type="SearchBttn6">Display Map</button>
+</form>
+</div>
+
+<style>
+    .form_wrapper {
+        width: 200px; /* the width of half of your space or 50% */
+        float: left;
+    }
+</style>
+  
+  
+</body>
+</html>
