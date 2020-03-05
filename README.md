@@ -1,1 +1,1 @@
-![alt text](screenshots/map.png "Description goes here")
+![alt text](map.png "Description goes here")
