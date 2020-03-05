@@ -70,7 +70,7 @@
 	$state = $_REQUEST['state'];
 	
 	//Zillow-provided API Key
-	$ZWSID = 'X1-ZWz17ns0jot5hn_7rj5m';
+	$ZWSID = '[key here]';
 	
 	//Zillow XML file link
 	$link = 'http://www.zillow.com/webservice/GetRegionChildren.htm?zws-id='
