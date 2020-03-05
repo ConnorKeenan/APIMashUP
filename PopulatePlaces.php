@@ -24,7 +24,7 @@ $longitude = $_REQUEST['longitude'];
 $radius = $_REQUEST['radius'];
 $type = $_REQUEST['type'];
 $keyword = $_REQUEST['keyword'];
-$key = 'AIzaSyBp5EZUdopVi9BeUSylSkKURbxhj4Ahjsk';
+$key = '';
 
 //Creates link to API to receive query for JSON file
 $url = 'https://' .
